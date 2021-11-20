@@ -1,0 +1,9 @@
+.header__lang-list-item {
+  display: block;
+  float: left;
+  margin-right: 18px;
+}
+
+.header__lang-list-item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,20 @@
+.footer__list-item {
+  display: block;
+  float: left;
+  margin-right: 18px;
+}
+
+.footer__list-item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list-item {
+    float: none;
+    margin-top: 32px;
+  }
+
+  .footer__list-item:first-child {
+    margin-top: 0;
+  }
+}

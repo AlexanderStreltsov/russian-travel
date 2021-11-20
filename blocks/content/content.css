@@ -1,0 +1,19 @@
+.content {
+  margin-top: 56px;
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+  grid-template-columns: 100%;
+  row-gap: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    row-gap: 64px;
+  }
+}

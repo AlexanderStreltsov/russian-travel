@@ -1,0 +1,34 @@
+.places__list-item {
+  margin: 80px 0 0;
+  display: grid;
+  grid-template-columns: minmax(460px, 1fr) auto;
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 40px;
+}
+
+.places__list-item:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__list-item {
+    grid-template-columns: minmax(440px, 1fr) auto;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__list-item {
+    margin-top: 73px;
+    grid-template-columns: minmax(340px, 1fr) auto;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__list-item {
+    margin-top: 50px;
+    grid-template-columns: minmax(320px, 1fr);
+    gap: 32px;
+  }
+}
