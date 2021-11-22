@@ -11,13 +11,13 @@
     url(./Inter/Inter-Bold.woff2) format('woff2'),
     url(./Inter/Inter-Bold.woff) format('woff');
   font-family: 'Inter';
-  font-weight: 900;
+  font-weight: bold;
 }
 
 @font-face {
   src:
-    url(./Inter/Inter-SemiBold.woff2) format('woff2'),
-    url(./Inter/Inter-SemiBold.woff) format('woff');
+    url(./Inter/Inter-Black.woff2) format('woff2'),
+    url(./Inter/Inter-Black.woff) format('woff');
   font-family: 'Inter';
-  font-weight: 700;
+  font-weight: 900;
 }
