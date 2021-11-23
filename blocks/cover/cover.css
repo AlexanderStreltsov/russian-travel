@@ -1,17 +1,29 @@
 .cover {
   width: 92.5%;
-  max-height: 740px;
-  padding: calc(35%*9/16) 0;
+  padding: calc(34%*9/16) 0;
   box-sizing: border-box;
   justify-self: center;
   position: relative;
   background-image: url('../../images/cover-trains.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding: calc(26.6%*9/16) 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    padding: calc(18.5%*9/16) 0;
   }
 }

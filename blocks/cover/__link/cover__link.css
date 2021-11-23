@@ -1,0 +1,10 @@
+.cover__link {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover__link:hover .cover__overlay {
+  opacity: .8;
+}
